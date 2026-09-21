@@ -1,4 +1,4 @@
-# SIP over TLS with CIPC: a student lab
+# SIP over TLS with CISCO IP Communicator
 
 A standalone SIP/TLS learning repository reconstructed from the September 2026 HQ India lab. Start here even if you have never read the separate UDP repository.
 
