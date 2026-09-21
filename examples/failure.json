@@ -1,0 +1,27 @@
+{
+  "example_only": true,
+  "case": "Observed missing-LSC state, with generic device identity",
+  "device_name": "SEP020000000301",
+  "dn": "2103",
+  "lsc": {
+    "status": "Not Installed",
+    "subject": null,
+    "issuer": null,
+    "serial": null,
+    "fingerprint": null
+  },
+  "downloaded_config": {
+    "deviceSecurityMode": 3,
+    "transportLayerProtocol": 3,
+    "voipControlPort": 5061,
+    "certHash": ""
+  },
+  "observed_registration": {
+    "transport": "TCP",
+    "destination_port": 5060,
+    "response": 403,
+    "reason": "Device security mismatch: expected TLS, received TCP/UDP"
+  },
+  "capf_traffic_observed": false,
+  "note": "No installed certificate existed to assign failed serial/fingerprint values to."
+}

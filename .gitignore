@@ -1,0 +1,15 @@
+# Private lab evidence and secrets: keep outside public Git.
+*.pcap
+*.pcapng
+*.cap
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.der
+*.etl
+.env
+secrets/
+private-evidence/

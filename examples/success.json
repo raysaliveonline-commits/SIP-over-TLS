@@ -1,0 +1,24 @@
+{
+  "example_only": true,
+  "not_importable": true,
+  "device_name": "SEP020000000301",
+  "dn": "2103",
+  "lsc": {
+    "status": "Installed",
+    "subject": "CN=SEP020000000301",
+    "issuer": "CN=CAPF-LAB-EXAMPLE",
+    "serial": "0x1001",
+    "sha256_fingerprint": "AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99",
+    "all_certificate_values": "SYNTHETIC; not derived from a certificate",
+    "private_key": "NOT INCLUDED"
+  },
+  "observed_transport": {
+    "server_port": 5061,
+    "tls_version": "TLS 1.0",
+    "cipher": "TLS_RSA_WITH_AES_128_CBC_SHA",
+    "cipher_id": "0x002f",
+    "mutual_tls_completed": true
+  },
+  "registration": "Reported by operator; SIP payload not decrypted",
+  "srtp": "Not verified in this capture"
+}
